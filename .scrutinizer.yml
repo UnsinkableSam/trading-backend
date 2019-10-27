@@ -1,6 +1,6 @@
 build:
   environment:
-    mongodb: true
+    mongodb: 3.3.2
   nodes:
     coverage:
       tests:
