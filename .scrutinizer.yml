@@ -4,7 +4,7 @@ build:
   nodes:
     nodes:
       services:
-        mongo: 4
+        mongo: 3
     coverage:
       tests:
         override:
