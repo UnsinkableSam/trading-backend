@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text --reporter=clover mocha --timeout 10000 --exit 'test/**/*.js'"
+    "test": "nyc --reporter=html --reporter=text --reporter=clover mocha --timeout 15000 --exit 'test/*/.js'"
   },
   "author": "",
   "license": "ISC",

@@ -2,10 +2,6 @@ build:
   environment:
     mongodb: true
   nodes:
-    my-node:
-      services:
-        # For available tags, see https://hub.docker.com/_/mongo/
-        mongo: 4
     coverage:
       tests:
         override:
