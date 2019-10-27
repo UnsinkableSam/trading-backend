@@ -1,1 +1,2 @@
 [![Build Status](https://travis-ci.org/UnsinkableSam/trading-backend.svg?branch=master)](https://travis-ci.org/UnsinkableSam/trading-backend)
+[![Code Coverage](https://scrutinizer-ci.com/g/UnsinkableSam/trading-backend/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/UnsinkableSam/trading-backend/?branch=master)
