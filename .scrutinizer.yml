@@ -1,9 +1,9 @@
 build:
+  environment:
+    mongodb: true
   nodes:
     coverage:
       tests:
-        services:  
-            mongo: 4
         override:
           - command: npm test
             coverage:
