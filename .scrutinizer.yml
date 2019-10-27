@@ -1,6 +1,6 @@
 build:
   environment:
-    mongodb: 4.0
+    mongodb: "4.0"
   nodes:
     coverage:
       tests:
