@@ -1,6 +1,5 @@
 build:
   environment:
-    node: v8.14.0
     mongodb: true
   nodes:
     coverage:

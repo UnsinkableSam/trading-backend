@@ -1,7 +1,7 @@
 process.env.NODE_ENV = 'test';
 const mongo = require("mongodb").MongoClient;
 const ObjectID = require('mongodb').ObjectID;
-const dsn = "mongodb://localhost:27017/test";
+const dsn = "mongodb://127.0.0.1:27017/test";
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const server = require('../../app.js');
