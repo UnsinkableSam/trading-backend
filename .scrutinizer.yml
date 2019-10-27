@@ -2,9 +2,8 @@ build:
   environment:
     mongodb: true
   nodes:
-    nodes:
-      services:
-        mongo: 3
+    services:
+      mongo: 3
     coverage:
       tests:
         override:
