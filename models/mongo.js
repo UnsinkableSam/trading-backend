@@ -3,7 +3,7 @@ const mongo = require("mongodb").MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 let dsn = "mongodb://localhost:27017/members";
 if (process.env.NODE_ENV === 'test') {
-    dsn = "mongodb://localhost:27017/test";
+    dsn = "mongodb://127.0.0.1/test";
     console.log("TEST DB");
 }
 
