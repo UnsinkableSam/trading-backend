@@ -19,7 +19,7 @@ const dbDrop = async ()  => {
     // await col.drop();
 }
 
-describe('Reports', () => {
+describe('Stocks post', () => {
     dbDrop();
     describe('Post/stocks', () => {
         it('200 HAPPY PATH', (done) => {
